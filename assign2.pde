@@ -39,7 +39,7 @@ void draw() {
   }
   switch(playA){
   case 2:
-  if (k==-100) {k=200;
+  if (k==-100) {k=200;fighterx=580;fightery=220;
     
    }
   if(playA==2){
