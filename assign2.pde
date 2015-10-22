@@ -83,7 +83,7 @@ void draw() {
   if (enemyx ==0) {
     enemyy=(int)random(430);
   }
-  if (enemyx >=fighterx-5 && enemyy>=fightery-20  && enemyy<=fightery+60 && enemyx <=fighterx+60) {
+  if (enemyx+10 >=fighterx-5 && enemyy+10>=fightery-20  && enemyy+10<=fightery+60 && enemyx+10 <=fighterx+60) {
     k-=40;enemyx=0;enemyy=(int)random(430);
   }
     if (treasurex >=fighterx-5 && treasurey>=fightery-10  && treasurey<=fightery+60 && treasurex <=fighterx+60 && k<200) {
@@ -93,7 +93,7 @@ void draw() {
     ;treasurex=(int)random(600);treasurey=(int)random(430);
   }
   if (enemyx <=fighterx && enemyy<=fightery-20) {
-    enemyy +=3;
+    enemyy +=4;
   } 
   if (enemyx <=fighterx && enemyy>=fightery+60) {
     enemyy -=3;
