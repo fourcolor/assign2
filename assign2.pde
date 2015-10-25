@@ -1,6 +1,6 @@
 /* please implement your assign1 code in this file. */
 PImage backGround1,start2,start1,backGround2,fighter,treasure,enemy,hp,end1,end2;
-int backGround1x=0,backGround2x=640,treasurex=(int)random(630),treasurey=(int)random(430),enemyx=0,enemyy=(int)random(430),k=200,playA=0;
+int backGround1x=0,backGround2x=640,treasurex=(int)random(630),treasurey=(int)random(430),enemyx=0,enemyy=(int)random(430),k=40,playA=0;
 float fighterx=580;
 float fightery=220;
 float speed = 5;
@@ -39,7 +39,7 @@ void draw() {
   }
   switch(playA){
   case 2:
-  if (k==-100) {k=200;fighterx=580;fightery=220;treasurey=(int)random(430);treasurex=(int)random(630);
+  if (k==-100) {k=40;fighterx=580;fightery=220;treasurey=(int)random(430);treasurex=(int)random(630);
     
    }
   if(playA==2){
