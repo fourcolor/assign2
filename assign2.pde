@@ -92,11 +92,11 @@ void draw() {
   if (treasurex >=fighterx-5 && treasurey>=fightery-10  && treasurey<=fightery+60 && treasurex <=fighterx+60 ) {
     ;treasurex=(int)random(600);treasurey=(int)random(430);
   }
-  if (enemyx <=fighterx && enemyy<=fightery-30) {
+  if (enemyx <=fighterx && enemyy<=fightery-20) {
     enemyy +=4;
   } 
-  if (enemyx <=fighterx && enemyy>=fightery+60) {
-    enemyy -=3;
+  if (enemyx <=fighterx && enemyy>=fightery+70) {
+    enemyy -=4;
   }
   if (k<=0) {k=-100;
     playA=1;
