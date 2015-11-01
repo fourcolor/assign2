@@ -95,7 +95,7 @@ void draw() {
   if (enemyx <=fighterx && enemyy<=fightery-20) {
     enemyy +=4;
   } 
-  if (enemyx <=fighterx && enemyy>=fightery+70) {
+  if (enemyx <=fighterx && enemyy>=fightery) {
     enemyy -=4;
   }
   if (k<=0) {k=-100;
